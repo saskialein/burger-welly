@@ -1,12 +1,26 @@
-<h1>We had aaaaaall these burgers:</h1>
+<main  >
+<div class="background">
+
+<h1 id="burgers-title" >We had aaaaaall these burgers:</h1>
+
+<div class="burger-grid">
+
 
 {{#each burgers}}
+<div class="burger-card">
 <h3>{{name}}</h3>
 <img src={{image}} alt="burger">
+<br>
 <a href="/burger/{{id}}">Click here to see more</a>
+</div>
 {{/each}}
+</div>
 
-
+<div class="new-burger-button">
 <a href="/burger/new">
 <h2>Add a burger</h2>
 </a>
+</div>
+</div>
+
+</main>

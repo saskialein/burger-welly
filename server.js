@@ -16,12 +16,12 @@ server.use(express.urlencoded({extended: true}))
 
 
 //ROUTES
-
 //Home route  
 server.get('/',(req, res) => {
   res.render('home')
 })
 
+//burger routes
 server.use('/burger', burgerRouter)
 
 

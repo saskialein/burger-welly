@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const router = express.Router()
 
+//Burger overview
 router.get('/', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
     data = JSON.parse(data)
@@ -13,13 +14,12 @@ router.get('/', (req, res) => {
  })
 })
 
-//Renders input form for new burger
+//input form route to add new burger
 router.get('/new', (req, res) => {
-  // fs.readFile('./data.json', 'utf-8', (err, data) => {
-  // 	data = JSON.parse(data);
       res.render('newBurger')
   })
 
+//form post route
 router.post('/new', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
     data = JSON.parse(data)
@@ -43,7 +43,7 @@ router.post('/new', (req, res) => {
 })
   
 
-  //Renders details of each individual burger
+//burger details route
 router.get('/:id', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
 		data = JSON.parse(data);
@@ -52,6 +52,7 @@ router.get('/:id', (req, res) => {
 	})
 })
 
+//edit burger route
 router.get('/edit/:id', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
 		data = JSON.parse(data);
@@ -60,6 +61,7 @@ router.get('/edit/:id', (req, res) => {
 	})
 })
 
+//post edited burger route
 router.post('/edit/:id', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
 		data = JSON.parse(data);
@@ -77,6 +79,7 @@ router.post('/edit/:id', (req, res) => {
   })
 })
 
+//delete route
 router.get('/delete/:id', (req, res) => {
   fs.readFile('data.json', 'utf-8', (err, data) => {
 		data = JSON.parse(data);

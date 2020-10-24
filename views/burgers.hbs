@@ -1,0 +1,12 @@
+<h1>We had aaaaaall these burgers:</h1>
+
+{{#each burgers}}
+<h3>{{name}}</h3>
+<img src={{image}} alt="burger">
+<a href="/burger/{{id}}">Click here to see more</a>
+{{/each}}
+
+
+<a href="/burger/new">
+<h2>Add a burger</h2>
+</a>

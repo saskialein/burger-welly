@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "The Forager",
+    "image": "/images/mediterranean.jpg",
+    "restaurant": "Mediterranean Foods Trattoria and Deli",
+    "description": "Black Angus beef patty with truffled prosciutto cotto ham, Taleggio cheese, lollo lettuce, balsamic borettane pickled onion and locally foraged porcini mushrooms in an Altamura sourdough bread bun, with Van der Rose potato wedges.",
+    "comment": "Very good"
+  },
+  {
+    "id": 2,
+    "name": "Whatever",
+    "image": "/images/bebemos.jpg",
+    "restaurant": "Saskia's",
+    "description": "Cereal-crusted churrasco chicken tenders with wild boar bacon, smoked cheese, micro celery salsa, Apostle Bloody Mary chutney in a Zaida's spirulina bun, with curly fry nachos, sour cream and Bloody Mary sauce.",
+    "comment": "Good chips and bun"
+  },
+  {
+    "id": 3,
+    "name": "Phantom of the Okra",
+    "image": "/images/baobab.jpeg",
+    "restaurant": "Baobab Cafe",
+    "description": "Deep-fried okra with chilli mango chutney, pickled radish, red slaw and baba ganoush in a Zaida's blue bun.",
+    "comment": "Average"
+  }
+]

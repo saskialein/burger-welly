@@ -1,7 +1,7 @@
 # Burger Welly
 A simple app to keep track of all the burgers I had during the Wellington on a Plate event.
 
-The [Visa Wellington on a Plate] (https://www.visawoap.com/visawoap) event is New Zealand's biggest annual food festival spanning one month full of tasty events around Wellington.
+The [Visa Wellington on a Plate](https://www.visawoap.com/visawoap) event is New Zealand's biggest annual food festival spanning one month full of tasty events around Wellington.
 The three-week burger celebration, where more than 200 venues are serving up creative burger and beer matches, is the highlight of Visawoap.
 
 This burger welly app is my very first full stack app. I created it, to particularly practice Handlebars.js and CRUD operations on a SQL database.
